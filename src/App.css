@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+.title {
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.input {
+    padding: 2px;
+    width: 600px;
+    border:0px;
+    border-bottom:solid ;
+    height: 40px;
+    font-family: "Marmelad", sans-serif;
+    outline-style: none;
+    font-size: 20px;
+
+    &:focus{
+        border-color: gray;
+    }
+
+}
+
+
